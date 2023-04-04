@@ -21,7 +21,7 @@ func IncrementarDosVeces(i Incrementador) {
 	i.Incrementar()
 }
 
-func main() {
+func interfazEjemplo() {
 	contador := &Contador{Valor: 0}
 
 	fmt.Println("Valor inicial del contador:", contador.Valor)
